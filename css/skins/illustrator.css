@@ -1,0 +1,87 @@
+body{
+	background:url(../../img/whitey.png) ;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    background-size: cover;
+	font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.no-csstransforms3d .book,
+
+.no-js .book,
+
+.front {
+    background: url(../../img/cover.jpg);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.16) 15%, rgba(255, 255, 255, 0.05) 100%), url(../../img/cover.jpg), #333;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.16) 15%, rgba(255, 255, 255, 0.1) 100%), url(../../img/cover.jpg), #333;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top;	
+}
+
+h1.huge-title{
+	font-family:'Tulpen One', Arial, Helvetica, sans-serif;
+	font-size: 3em;	
+	font-weight: 300;
+	color: #555;
+	margin-bottom:5px;
+}
+h1.huge-title.bottom{
+	padding-top:400px;
+}
+
+.content-title.title-2 h2{
+	font-size: 2em;
+	font-weight: 300;
+	color: #555;
+	margin-top:30px;
+	margin-bottom:30px
+}
+
+.content-title.title-3 h3{
+	font-family: 'Marvel', Arial, Helvetica, sans-serif;
+	color: #555;
+	margin-bottom: 40px;
+}
+.sub-title{
+	color:#aaa;
+	font-size:.9em;
+	margin-left:4px;
+	margin-bottom: 60px;
+}
+.full-page-text{
+	display: flex;
+  	justify-content: center;
+  	align-items: center; 
+}
+p.half-width{
+	display: block;
+	margin-left:4px;
+}
+
+.intro-content h1{
+	font-family:'Tulpen One', Arial, Helvetica, sans-serif;
+	font-style:normal;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:2.6em;
+}
+
+.intro-content p{
+	font-size:14px;
+}
+
+.content-title h2{
+	font-family:"Tulpen One", "Comic Sans MS", cursive;
+	text-transform: normal;
+}
+
+
+.effect-moveleft.animate .outer-nav a{
+	font-family:'Marvel', Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+	font-weight:600;
+}
